@@ -1,0 +1,127 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Mega Blocks",
+      "excerpt": "Baby Safe Blocks, Best for Age group 2-6 years. The best way to learn and play. Soft corners and edges. Safe for babies and toddlers. Must have for babies.",
+      "date": "June 1, 2025",
+      "author": "Parent Reviewer",
+      "category": "toys",
+      "price": "₹609",
+      "rating": 4.4,
+      "amazonLink": "https://amzn.to/4eNW8go",
+      "image": "Images/Blocks.png",
+      "content": "<h2>Why We Love It</h2><p>The best way to learn and play. Soft corners and edges. Safe for babies and toddlers. Must have for babies.</p><ul><li>Keeps baby engaged for hours</li><li>Safe for babies and toddlers</li><li>improves cognitive skills</li><li>colours and shapes helps in early learning</li></ul><div class=\"price-tag\">Current Price: ₹609</div><a href=\"https://amzn.to/4eNW8go\" class=\"amazon-button\" target=\"_blank\"><i class=\"fab fa-amazon\"></i> Buy on Amazon.in</a>"
+    },
+    {
+      "id": 2,
+      "title": "Talking Cactus",
+      "excerpt": "Interactive Talking Cactus. Unlimited fun time for your baby. Best for Age group 2-5 years. soft to touch. Safe for babies and toddlers. Must have for babies.",
+      "date": "June 1, 2025",
+      "author": "Parent Reviewer",
+      "category": "toys",
+      "price": "₹499",
+      "rating": 4.4,
+      "amazonLink": "https://amzn.to/3IQCRiP",
+      "image": "Images/Cactus.png",
+      "content": "<h2>Why We Love It</h2><p>Interactive Talking Cactus. Unlimited fun time for your baby. soft to touch. Safe for babies and toddlers. Must have for babies.</p><ul><li>Repeats what you say in a funny voice</li><li>Soft and safe for babies and toddlers</li><li>Provides unlimited fun and engagement</li><li>Perfect for sensory and language development</li></ul><div class=\"price-tag\">Current Price: ₹499</div><a href=\"https://amzn.to/3IQCRiP\" class=\"amazon-button\" target=\"_blank\"><i class=\"fab fa-amazon\"></i> Buy on Amazon.in</a>"
+    },
+    {
+      "id": 3,
+      "title": "Rattles",
+      "excerpt": "Soft, safe, and adorable rattles for babies. Gentle on skin and easy on gums.",
+      "date": "June 2, 2025",
+      "author": "Parent Reviewer",
+      "category": "toys",
+      "price": "₹279",
+      "rating": 4.1,
+      "amazonLink": "https://amzn.to/47ifecO",
+      "image": "Images/Rattle.png",
+      "content": "<h2>Why We Love It</h2><p>Around the age of 8 months, the babies start to grab things and put them in their mouth. So, rattles are a great way to keep them engaged and happy.</p><ul><li>Rattles are a great way to keep them engaged and happy</li><li>Easy to clean</li><li>Safe for babies and toddlers</li><li>Perfect for sensory and language development</li></ul><div class=\"price-tag\">Current Price: ₹899</div><a href=\"https://amzn.to/47ifecO\" class=\"amazon-button\" target=\"_blank\"><i class=\"fab fa-amazon\"></i> Buy on Amazon.in</a>"
+    },
+    {
+      "id": 4,
+      "title": "Mee Mee Baby Boys' & Girls' Cotton Rompers (Pack of 3)",
+      "excerpt": "Soft, breathable, and adorable rompers for babies. Gentle on skin and easy to put on and take off.",
+      "date": "June 2, 2024",
+      "author": "Mom's Choice",
+      "category": "cloths",
+      "price": "₹899",
+      "rating": 4.5,
+      "amazonLink": "https://www.amazon.in/dp/B07QK6QJ8B",
+      "image": "https://m.media-amazon.com/images/I/71QKQ9mwVwL._AC_UL480_FMwebp_QL65_.jpg",
+      "content": "<h2>Why We Love It</h2><p>Mee Mee's cotton rompers are perfect for daily wear. The fabric is soft and safe for sensitive baby skin, and the snap buttons make diaper changes a breeze.</p><ul><li>100% cotton, gentle on skin</li><li>Easy snap closures</li><li>Unisex designs and colors</li><li>Machine washable</li></ul><div class=\"price-tag\">Current Price: ₹899</div><a href=\"https://www.amazon.in/dp/B07QK6QJ8B\" class=\"amazon-button\" target=\"_blank\"><i class=\"fab fa-amazon\"></i> Buy on Amazon.in</a>"
+    },
+    {
+      "id": 5,
+      "title": "Mamaearth Moisturizing Daily Lotion for Babies",
+      "excerpt": "A gentle, toxin-free lotion that keeps your baby's skin soft, smooth, and hydrated all day long.",
+      "date": "June 3, 2024",
+      "author": "Dermatologist Approved",
+      "category": "skin-care",
+      "price": "₹299",
+      "rating": 4.6,
+      "amazonLink": "https://www.amazon.in/dp/B01N6VJ3D2",
+      "image": "https://m.media-amazon.com/images/I/61QGQh1QwGL._AC_UL480_FMwebp_QL65_.jpg",
+      "content": "<h2>Why We Love It</h2><p>Mamaearth's baby lotion is made with natural ingredients like shea butter and jojoba oil. It's dermatologically tested and safe for newborns and infants.</p><ul><li>Hypoallergenic and toxin-free</li><li>Moisturizes and protects delicate skin</li><li>No parabens, sulfates, or mineral oil</li><li>Light, non-greasy formula</li></ul><div class=\"price-tag\">Current Price: ₹299</div><a href=\"https://www.amazon.in/dp/B01N6VJ3D2\" class=\"amazon-button\" target=\"_blank\"><i class=\"fab fa-amazon\"></i> Buy on Amazon.in</a>"
+    },
+    {
+      "id": 6,
+      "title": "My First Library: Boxset of 10 Board Books for Kids",
+      "excerpt": "A colorful collection of 10 board books to introduce babies and toddlers to basic concepts and vocabulary.",
+      "date": "June 4, 2024",
+      "author": "Book Reviewer",
+      "category": "books",
+      "price": "₹399",
+      "rating": 4.8,
+      "amazonLink": "https://www.amazon.in/dp/9387779262",
+      "image": "https://m.media-amazon.com/images/I/81Otwki3LfL._AC_UL480_FMwebp_QL65_.jpg",
+      "content": "<h2>Why We Love It</h2><p>This boxset is a wonderful way to start your child's reading journey. The sturdy board books cover topics like animals, numbers, colors, and more.</p><ul><li>10 board books in a handy box</li><li>Bright, engaging illustrations</li><li>Perfect size for little hands</li><li>Encourages early learning and bonding</li></ul><div class=\"price-tag\">Current Price: ₹399</div><a href=\"https://www.amazon.in/dp/9387779262\" class=\"amazon-button\" target=\"_blank\"><i class=\"fab fa-amazon\"></i> Buy on Amazon.in</a>"
+    },
+    {
+      "id": 7,
+      "title": "Skillmatics Educational Game: Animal Planet - Guess in 10",
+      "excerpt": "A fun, interactive activity game for kids ages 5-10. Boosts knowledge, communication, and critical thinking skills.",
+      "date": "June 5, 2024",
+      "author": "Activity Expert",
+      "category": "activity",
+      "price": "₹349",
+      "rating": 4.7,
+      "amazonLink": "https://www.amazon.in/dp/B078K1J6P6",
+      "image": "https://m.media-amazon.com/images/I/81QwQ4F4HqL._AC_UL480_FMwebp_QL65_.jpg",
+      "content": "<h2>Why We Love It</h2><p>Guess in 10 is a quick, engaging game where kids ask up to 10 questions to guess the animal on the card. Great for family game night and learning about the animal kingdom!</p><ul><li>Develops communication and reasoning</li><li>Portable and easy to play anywhere</li><li>Includes 52 cards and 6 clue cards</li><li>Perfect for travel and playdates</li></ul><div class=\"price-tag\">Current Price: ₹349</div><a href=\"https://www.amazon.in/dp/B078K1J6P6\" class=\"amazon-button\" target=\"_blank\"><i class=\"fab fa-amazon\"></i> Buy on Amazon.in</a>"
+    }
+  ],
+  "categories": [
+    {
+      "id": "toys",
+      "name": "Toys",
+      "icon": "fas fa-puzzle-piece",
+      "description": "Fun and educational toys"
+    },
+    {
+      "id": "cloths",
+      "name": "Cloths",
+      "icon": "fas fa-tshirt",
+      "description": "Comfortable and stylish clothing"
+    },
+    {
+      "id": "skin-care",
+      "name": "Skin Care",
+      "icon": "fas fa-spa",
+      "description": "Gentle care for baby's skin"
+    },
+    {
+      "id": "books",
+      "name": "Books",
+      "icon": "fas fa-book",
+      "description": "Must-read titles for kids"
+    },
+    {
+      "id": "activity",
+      "name": "Activity",
+      "icon": "fas fa-running",
+      "description": "Engaging activity products"
+    }
+  ]
+} 

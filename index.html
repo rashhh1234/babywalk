@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Baby Walk - Blogs</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+        
+        body {
+            background: #000;
+            color: #fff;
+        }
+        main {
+            background: #000;
+        }
+        .nav-logo h1 {
+            font-family: 'Orbitron', monospace;
+            font-weight: 700;
+            font-size: 2rem;
+            background: linear-gradient(135deg, #ff69b4 0%, #ff1493 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        .nav-logo h1:hover {
+            transform: scale(1.05);
+            filter: brightness(1.2);
+        }
+        .blog-list { 
+            max-width: 900px; 
+            margin: 0 auto; 
+            padding: 40px 0; 
+            background: url('Images/Background.jpeg') no-repeat center center;
+            background-size: cover;
+            position: relative;
+        }
+        .blog-list::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 1;
+        }
+        .blog-list > * {
+            position: relative;
+            z-index: 2;
+        }
+        .blog-card { 
+            background: rgba(17, 17, 17, 0.9); 
+            border-radius: 15px; 
+            box-shadow: 0 4px 20px rgba(255, 105, 180, 0.2); 
+            margin-bottom: 2rem; 
+            padding: 2rem; 
+            transition: box-shadow 0.3s; 
+            border: 2px solid transparent;
+            backdrop-filter: blur(10px);
+        }
+        .blog-card:hover { 
+            box-shadow: 0 8px 30px rgba(255, 105, 180, 0.3); 
+            border-color: #ff69b4;
+        }
+        .blog-title { 
+            font-size: 1.5rem; 
+            font-weight: 700; 
+            color: #fff; 
+            margin-bottom: 0.5rem; 
+        }
+        .blog-meta { 
+            color: #ccc; 
+            font-size: 0.95rem; 
+            margin-bottom: 1rem; 
+        }
+        .blog-excerpt { 
+            color: #ccc; 
+            margin-bottom: 1.2rem; 
+        }
+        .read-blog { 
+            color: #ff69b4; 
+            text-decoration: none; 
+            font-weight: 600; 
+        }
+        .read-blog:hover { 
+            color: #ff1493; 
+        }
+        .to-products { 
+            display: block; 
+            width: fit-content; 
+            margin: 2rem auto 0; 
+            background: #ff69b4; 
+            color: #fff; 
+            padding: 1rem 2.5rem; 
+            border-radius: 30px; 
+            font-weight: 700; 
+            text-decoration: none; 
+            font-size: 1.2rem; 
+            box-shadow: 0 4px 15px rgba(255, 105, 180, 0.4); 
+            transition: background 0.3s; 
+        }
+        .to-products:hover { 
+            background: #ff1493; 
+        }
+        .hero {
+            background: url('Images/Background.jpeg') no-repeat center center;
+            background-size: cover;
+            color: white;
+            padding: 120px 0 80px;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 1;
+        }
+        .hero-container {
+            position: relative;
+            z-index: 2;
+        }
+        .hero-title {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .hero-subtitle {
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h1><a href="index.html" style="text-decoration: none; color: inherit;">My Baby Walk</a></h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link active">Blogs</a></li>
+                    <li><a href="products.html" class="nav-link">Products</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" style="padding-bottom: 40px;">
+            <div class="hero-container">
+                <h1 class="hero-title">Welcome to My Baby Walk Blogs</h1>
+                <p class="hero-subtitle">Parenting stories, tips, and inspiration for your journey</p>
+                <a href="products.html" class="to-products">Go to Product Recommendations</a>
+            </div>
+        </section>
+
+        <section class="blog-list" style="background: #000;">
+            <div class="blog-card">
+                <div class="blog-title">First Steps: A Parent's Guide to Baby Development</div>
+                <div class="blog-meta">By Sarah Johnson • December 15, 2024</div>
+                <div class="blog-excerpt">Discover the amazing milestones your baby will reach in their first year and how to support their development every step of the way.</div>
+                <a href="blog-first-steps.html" class="read-blog">Read Blog</a>
+            </div>
+            <div class="blog-card">
+                <div class="blog-title">Creating a Safe and Stimulating Home Environment</div>
+                <div class="blog-meta">By Michael Chen • December 12, 2024</div>
+                <div class="blog-excerpt">Transform your home into a haven that encourages learning and exploration while keeping your little one safe and secure.</div>
+                <a href="blog-safe-environment.html" class="read-blog">Read Blog</a>
+            </div>
+            <div class="blog-card">
+                <div class="blog-title">Nutrition Tips for Growing Babies</div>
+                <div class="blog-meta">By Dr. Emily Rodriguez • December 10, 2024</div>
+                <div class="blog-excerpt">From first foods to family meals, learn how to nourish your baby's body and mind with healthy, delicious options.</div>
+                <a href="blog-nutrition-tips.html" class="read-blog">Read Blog</a>
+            </div>
+            <div class="blog-card">
+                <div class="blog-title">Sleep Solutions for the Whole Family</div>
+                <div class="blog-meta">By Lisa Thompson • December 8, 2024</div>
+                <div class="blog-excerpt">Establish healthy sleep habits that work for your family's unique needs and help everyone get the rest they need.</div>
+                <a href="blog-sleep-solutions.html" class="read-blog">Read Blog</a>
+            </div>
+            <div class="blog-card">
+                <div class="blog-title">Building Strong Parent-Child Bonds</div>
+                <div class="blog-meta">By Dr. James Wilson • December 5, 2024</div>
+                <div class="blog-excerpt">Discover simple, everyday ways to strengthen your connection with your baby and build a foundation of trust and love.</div>
+                <a href="blog-parent-child-bonds.html" class="read-blog">Read Blog</a>
+            </div>
+            <div class="blog-card">
+                <div class="blog-title">Managing the Transition to Parenthood</div>
+                <div class="blog-meta">By Maria Garcia • December 3, 2024</div>
+                <div class="blog-excerpt">Navigate the emotional and practical challenges of becoming a parent while maintaining your own well-being and relationships.</div>
+                <a href="blog-transition-parenthood.html" class="read-blog">Read Blog</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>My Baby Walk</h3>
+                    <p>Your trusted source for parenting stories, tips, and product recommendations.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Blogs</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 My Baby Walk. All rights reserved. | Amazon.in affiliate links included.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Baby Walk - Product Recommendations</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .nav-logo h1 {
+            font-family: 'Orbitron', monospace;
+            font-weight: 700;
+            font-size: 2rem;
+            background: linear-gradient(135deg, #ff69b4 0%, #ff1493 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        .nav-logo h1:hover {
+            transform: scale(1.05);
+            filter: brightness(1.2);
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h1><a href="index.html" style="text-decoration: none; color: inherit;">My Baby Walk</a></h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Blogs</a></li>
+                    <li><a href="products.html" class="nav-link active">Products</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-container">
+                <h1 class="hero-title">Discover Amazing Products</h1>
+                <p class="hero-subtitle">Handpicked recommendations from Amazon.in - Quality products at great prices</p>
+                <a href="#featured-products" class="cta-button">Explore Products</a>
+            </div>
+        </section>
+
+        <section id="featured-products" class="featured-posts">
+            <div class="container">
+                <h2 class="section-title">Featured Product Reviews</h2>
+                <div class="posts-grid" id="posts-grid">
+                    <!-- Products will be loaded dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <section id="categories" class="categories">
+            <div class="container">
+                <h2 class="section-title">Shop by Category</h2>
+                <div class="category-grid">
+                    <div class="category-card" onclick="filterByCategory('toys')">
+                        <i class="fas fa-puzzle-piece"></i>
+                        <h3>Toys</h3>
+                        <p>Fun and educational toys</p>
+                    </div>
+                    <div class="category-card" onclick="filterByCategory('cloths')">
+                        <i class="fas fa-tshirt"></i>
+                        <h3>Cloths</h3>
+                        <p>Comfortable and stylish clothing</p>
+                    </div>
+                    <div class="category-card" onclick="filterByCategory('skin-care')">
+                        <i class="fas fa-spa"></i>
+                        <h3>Skin Care</h3>
+                        <p>Gentle care for baby's skin</p>
+                    </div>
+                    <div class="category-card" onclick="filterByCategory('books')">
+                        <i class="fas fa-book"></i>
+                        <h3>Books</h3>
+                        <p>Must-read titles for kids</p>
+                    </div>
+                    <div class="category-card" onclick="filterByCategory('activity')">
+                        <i class="fas fa-running"></i>
+                        <h3>Activity</h3>
+                        <p>Engaging activity products</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="container">
+                <div class="newsletter-content">
+                    <h2>Stay Updated</h2>
+                    <p>Get notified about the latest product recommendations and exclusive deals</p>
+                    <form class="newsletter-form" id="newsletter-form">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>My Baby Walk</h3>
+                    <p>Your trusted source for the best product recommendations and reviews.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Blogs</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="#categories">Categories</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 My Baby Walk. All rights reserved. | Amazon.in affiliate links included.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
